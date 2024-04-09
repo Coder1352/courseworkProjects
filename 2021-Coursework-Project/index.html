@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Leaving Cert Coursework Project">
+        <meta name="keywords" content="2021, computer science, website, embedded systems, covid">
+        <meta name="author" content="coderClass">
+        <link rel="stylesheet" href="style.css">
+        <title>Coursework Project 2021</title>
+    </head>
+    <body>
+        <h1>Coursework Report</h1>
+        <h2>1.  A Rationale for the Approach to the Brief</h2>
+        <h3>1.1  Research (approximately 150 ‐ 200 words)</h3>
+        <img  id="vaccine" src="/resources/Covid-19-vaccine.jpg">
+        <p>The Covid pandemic has had an enormous impact on hospitals, the economy, businesses and schools. 
+            Technology is one of the main supports in finding solutions to slow down and stop the spread of 
+            Covid 19. The quick transition of businesses and schools to online, remote working, prevented the 
+            complete disruption of day-to-day work during the height of the pandemic. The use of computational 
+            systems allowed researchers and scientists to track the spread of the virus and search for solutions 
+            to combat the spread of the virus. Using online, collaborative software such as 'Microsoft Teams' for 
+            meetings, allowed groups to work together without close contact.
+            Computer systems have helped enormously with the control and management of Covid. 3D printers were 
+            used for helping to produce PPE equipment like masks and visors. The collection and analysis of data, 
+            has helped with decision making, and technology played a crucial role in developing a vaccine for the 
+            virus. "Technologies powered by artificial intelligence (AI) including machine learning, image 
+            recognition, and deep learning algorithms can be used for early detection 
+            and diagnosis of the infection, more rapid drug discovery for developing new treatments 
+            (Brohi, Jhanjhi, Brohi, & Brohi, 2020)." The potential of AI to develop scientific solutions, for Covid and 
+            a range of other challenging social issues, is an area that I intend to study further.
+     </p>
+        <h3>1.2  Response to the brief (approximately 150 ‐ 200 words)</h3>
+        <div id="vaccine-div">
+            <img src="/resources/Pfizer.png" class="vaccine-logo">
+            <img src="/resources/AstraZeneca.png" class="vaccine-logo">
+            <img src="/resources/Moderna-Logo.jpg" class="vaccine-logo">
+        </div>
+        <p>For this project, I have focused on alleviating the problem of too many people gathering in crowds indoors. 
+            A high concentration of people in an enclosed area, prevents them from maintaining the required social 
+            distance of 2 meters. This increases the risk of the virus spreading. So, by developing an information 
+            system that helps to inform people when there are too many people gathering in a particular area, will 
+            help to reduce the spread of the virus.
+            There are a number of ways of developing this information system, such as the use of drones using 
+            software to count the number of people gathering in a group outdoors; but considering the limitations 
+            of the technology at my disposal, I've decided to focus on a system to count people entering and 
+            exiting buildings. The microbit will act
+            as a data collection device, which is activated by a person passing through a doorway. The maximum number 
+            of people allowed in the building will be calculated using the area of the indoor space. Based on this 
+            number,
+            the microbit will signal to people at the entrance of the building, whether they can enter, using a 
+            traffic light 
+            system. When the number of people in the building is below capacity, there will be a green light at 
+            the entrance, along with the word: 'Enter'. When the number of people in the building has reached 
+            the capacity, the green light will be replaced with a red light and the message: 'Capacity reached. Wait for 
+            green light to enter.'
+        </p>
+           
+            <h2>2.  The Artefact in Operation</h2>
+            <iframe width="560" height="315" id="microbitVideo" src="https://www.youtube.com/embed/MIhz7yzfRIk" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>3.  Design and Development of the Artefact</h2>
+
+        <h3>3.1  The Iterative Design Process (approximately 700 ‐ 800 words)</h3>
+
+        <p>
+            <img src="/resources/Iterative-design-process.jpg" id="idp">
+        </p>
+
+        <p>I've chosen the 'waterfall' design approach. I considered using 'agile', but since I do not have the 
+            option of close cooperation of the end user on a regular basis, I felt that the 'waterfall' approach
+        was more appropriate. The waterfall approach is in line with the project requirements, which requires formal, 
+        detailed documentation, making the deign process easier to understand for members who join the team at a 
+        later stage.<br>
+        The waterfall approach to software development involves a formal, more rigid approach to the design process.
+            It is a staged process, rather than an iterative process but like most software projects, some iteration 
+            is common. Each stage of the process should be completed 
+            before the next stage begins; and the stages should move in one direction, like a waterfall.<br>
+            The features of a waterfall design process include:</p>
+            <ul>
+                <li>A staged process</li>
+                <li>Reviewing completed stages, before moving on to the next stage</li>
+                <li>Finding problems early on, so they are easier and less expensive to fix</li>
+                <li>Detailed, formal documentation</li>
+            </ul><br>
+            
+
+            <h3>ITERATIVE DESIGN PROCESS</h3>
+            
+           <img id="timeline" src="/resources/timeline.png">
+            
+            <p><u>Investigate:</u></p>
+            <p>I read through the webpages and documents provided in the project brief:</p>
+                <ul>
+                    <li>General information on the coronavirus</li>
+                    <li>Issues and measures to prevent the spread of the coronavirus</li>
+                    <li>The use of technology to help reduce the spread of the virus</li>
+                </ul>
+                <p>I did further research on the topic using the internet, focusing on technological 
+                    solutions to help reduce the spread of Covid. I also became familiar with the 
+                    Microbit and it's accessories, to give me a better idea of potential solutions
+                    and limitations.
+                </p>
+
+
+            <p><u>Plan:</u></p>
+            <p>To help me make a plan for the project, I made a mind-map, including all the 
+                relevent information. Using abstraction, I represented subtopics keywords and phrases. This, along with the graphical aspect
+            of the mind-map, helped me to see the 'big picture'.</p>
+                <img id="mindmap" src="https://docs.google.com/drawings/d/e/2PACX-1vTGD2PO26_ZoPRRshCDNStoYLKy0tq7U2C0ffYo78PqessMluUGs84xm8Qhy_0mQm5PVHpPcWmMSTN5/pub?w=960&amp;h=520">
+                <p>Using the mind-map, I made notes on possible technological solutions, and I came up with an 
+                    information system for shops, to keep the number of customers in the shop under a maximum
+                    capacity, to allow people to maintain social distancing. As part of the plan, I kept 
+                    the timescale in mind to ensure the process is completed within the 8 week timeframe. I 
+                    also made a list of the necessary resources, such as hardware and software needed for the task. 
+                </p>
+
+            <p><u>Design:</u></p> 
+            <p>I used graphic design software to help me organise and design the project. It's a top-down design. 
+                As you can see from the diagram below, I utilised decomposition, to break down the problem into a set of
+                smaller, simpler tasks:</p>
+                <ul>
+                    <li>Write an algorithm for the program on the Microbit</li>
+                    <li>Use a python programme to transmit the data to a cloud database</li>
+                    <li>Retrieve the data from the database using Javascript</li>
+                    <li>Data analysis is done using python</li>
+                    <li>Display the data analysis on the website</li>
+                </ul> 
+                 
+            
+            <img id="project-design" src="/resources/project-design.png">
+
+            <p><u>Create:</u></p>
+            <ol>
+                <li>Built the embedded system using the microbit and accessories, including a battery pack, 
+                    breakout board, breadboard, jumper leads, and LEDs.</li>
+                <li>Makecode program written and downloaded to Microbit (screenshot of code below).</li>
+                <li>Microbit plugged into laptop and data transferred as a csv file.</li>
+                <li>Python program used to convert data and sent to firebase database.</li>
+                <li>Data retrieved from database and analysed using python.</li>
+                <li>Data analysis displayed on website.</li>
+            </ol> 
+    
+            <img src="resources/make-code-supermarket.png" id="make-code-supermarket">
+
+            <p><u>Evaluate:</u></p>
+            
+            <ul>
+                <li>Code on Makecode tested first, using the online simulator</li>
+                <li>Code downloaded to Microbit and tested using the Microbit and accessories</li>
+                <li>The csv file was trasferred and verified when sent to the firebase database</li>
+            </ul>
+
+            <p><u>Document:</u> Documented process throughout, making notes as part of the waterfall 
+            design process.</p>
+
+        Summary: Record your activities, thinking and adaptations as you progress through each iteration 
+of each stage of the design cycle and use these recordings to describe the design process leading 
+to your solution. 
+Key questions:  
+ What design approach did you take?  
+ What are the stages involved and what activities did you carry out during each stage?  
+ Did you iterate? If so, why and how often?  
+ What problems occurred during the design and how did you overcome them?  
+ Did you change your mind about any aspect of the design or did you decide to add any new 
+features to the design at any stage? If so, why, and what was the impact? 
+        <h3>3.2  Development of the Artefact (approximately 900 ‐ 1000 words)</h3>
+        Summary: Explain the system architecture and detail the design, development, testing and 
+deployment/implementation phases of the development. 
+Key Questions:  
+ What is the overall design (system architecture)?  
+ If the system is composed of multiple sub‐systems how do these relate to one another?  
+ What are the main features of the system and how are these realised (i.e. explain the design)? 
+ How was the system developed?  
+ What technologies were used?  
+ Were there any social or ethical considerations?  
+ How has data been gathered, validated and stored? 
+ What use cases were employed for testing?  
+ What problems occurred during the implementation and how did you overcome them?  
+
+        <h2>4.  Evaluation of the artefact</h2>
+        How well you achieved your design ambitions. 
+ The degree to which you met the requirements of the brief – you should examine each of the 
+artefact features listed in the brief, and explain how your artefact meets, or does not meet, 
+these features. 
+ How well the needs of the envisaged end user were met. Include reference to any unexpected 
+results encountered in the application of your artefact. 
+        <h3>4.1  Reflection on meeting the brief (approximately 150 ‐ 200 words)</h3>
+        <h3>4.2  Future development of the artefact (approximately 150 ‐ 200 words)</h3>
+        <h2>5. References</h2>
+        <h2>6. Summary word count</h2>
+    </body>
+</html>
